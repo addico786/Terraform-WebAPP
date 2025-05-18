@@ -31,3 +31,5 @@ Don't Forget to Destroy all Infrastructure
 ```
 $ terraform destroy -auto-approve
 ```
+## note 
+terraform state files should not be on github, its not considered a good practice, this is just a small project and does not conatines any sensitive data. make sure to put your tf.state files in .gitignore before pushing
